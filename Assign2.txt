@@ -1,0 +1,26 @@
+Q 1) Explore and explain the various methods in console function
+Ans. console.log() ->>> It is use to write the message in console tab. like Ex. console.log("Hii Everyone");
+	 console.time() ->> It will tell u the timing when the javascript program start to run.
+	 console.error() ->> Write an error message to the console
+	 console.warn()  ->> The console.warn() method is used to write a warning message in the console. So open the console to display The output (warning message).
+
+	 console.table() ->> Its will give u the table format of the data u enter in the console. 
+	    					its mainly used when u have large amount of data.
+	 console.timeEnd() ->> It will tell u the end time of program Execution.
+
+Q 2) Difference between var ,let and const .
+Ans. 'var' is a global variable which is accessible to all. 
+		For Example var name = "Sachin";
+
+	 'Let' is used to create a local variable with the same name as global variable.
+	 The Syntax is { let name="Sachin";}
+	 
+	 'const' Keyword is used when u want to assign a variable for a particular instance
+	 so that variable can't be use for other purposes.
+	 for Example const place="mumbai";
+	 now place variable can't be used in anywhere.
+
+Q 3) Write a brief introduction on available datatypes in javascript.
+Ans. There are two types of datatypes namely as Primitive type and Reference type
+	 Primitive Type ->>String, Number, Boolean, Undefined, null
+	 Reference Type ->>Array, object, function,map,set.
